@@ -49,20 +49,20 @@
         tools:layout_editor_absoluteY="621dp" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/Header"
+        android:id="@+id/overview"
         android:layout_width="412dp"
         android:layout_height="129dp"
-        android:background="@drawable/background_color_black"
         android:backgroundTint="#BE03A9F4"
-        tools:layout_editor_absoluteX="-1dp"
-        tools:layout_editor_absoluteY="0dp">
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/Header"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/background_color_black"
-            android:backgroundTint="#FDFCFC">
+            android:id="@+id/Header_overview"
+            android:layout_width="0dp"
+            android:layout_height="2dp"
+            android:backgroundTint="#FDFCFC"
+            tools:ignore="MissingConstraints">
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -70,6 +70,7 @@
             android:id="@+id/month_dropdown"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:minHeight="48dp"
             android:spinnerMode="dropdown"
             android:textAlignment="center"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -83,10 +84,10 @@
             android:id="@+id/Header"
             android:layout_width="436dp"
             android:layout_height="71dp"
-            android:background="@drawable/background_color_black"
             android:backgroundTint="#212020"
             app:layout_constraintEnd_toEndOf="parent"
-            tools:layout_editor_absoluteY="-5dp">
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
 
             <TextView
                 android:id="@+id/textView3"
@@ -101,10 +102,9 @@
                 android:textSize="34sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.565"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.476"
+                app:layout_constraintVertical_bias="0.238"
                 tools:layout_conversion_absoluteHeight="60dp"
                 tools:layout_conversion_absoluteWidth="158dp" />
 

@@ -4,21 +4,21 @@
     <item
         android:id="@+id/navigation_Overview"
         android:icon="@drawable/overview"
-        android:title="Overview" />
+        android:title="@string/title_Overview" />
 
     <item
         android:id="@+id/navigation_Analytics"
         android:icon="@drawable/analytics"
-        android:title="Analytics" />
+        android:title="@string/title_Analytics" />
 
     <item
         android:id="@+id/navigation_Report"
         android:icon="@drawable/outline_article_24"
-        android:title="Report" />
+        android:title="@string/title_Report" />
 
     <item
         android:id="@+id/navigation_Profile"
         android:icon="@drawable/outline_account_circle_24"
-        android:title="Profile" />
+        android:title="@string/title_Profile" />
 
 </menu>
