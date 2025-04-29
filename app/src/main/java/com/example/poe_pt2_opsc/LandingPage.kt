@@ -26,7 +26,7 @@ class LandingPage : AppCompatActivity() {
         // menu should be considered as top level destinations.
         val appBarConfiguration = AppBarConfiguration(
             setOf(
-                R.id.navigation_home, R.id.navigation_dashboard, R.id.Analytics
+                R.id.navigation_Overview, R.id.navigation_Analytics, R.id.navigation_add, R.id.navigation_Report, R.id.navigation_Profile
             )
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
