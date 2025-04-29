@@ -80,36 +80,6 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.847" />
 
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/Header"
-            android:layout_width="436dp"
-            android:layout_height="71dp"
-            android:backgroundTint="#212020"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
-
-            <TextView
-                android:id="@+id/textView3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/bagel_fat_one"
-                android:foregroundGravity="center"
-                android:gravity="center"
-                android:text="Overview"
-                android:textAlignment="center"
-                android:textColor="#F2F0F0"
-                android:textSize="34sp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.238"
-                tools:layout_conversion_absoluteHeight="60dp"
-                tools:layout_conversion_absoluteWidth="158dp" />
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
-
         <TextView
             android:id="@+id/textView6"
             android:layout_width="256dp"
@@ -129,6 +99,34 @@
             app:layout_constraintVertical_bias="0.833"
             tools:layout_conversion_absoluteHeight="60dp"
             tools:layout_conversion_absoluteWidth="158dp" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/Header"
+            android:layout_width="436dp"
+            android:layout_height="71dp"
+            android:backgroundTint="#EBE5E5"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bagel_fat_one"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="Overview"
+                android:textAlignment="center"
+                android:textColor="#232222"
+                android:textSize="34sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.238"
+                tools:layout_conversion_absoluteHeight="60dp"
+                tools:layout_conversion_absoluteWidth="158dp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
