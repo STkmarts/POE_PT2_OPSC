@@ -3,23 +3,35 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@+id/navigation_Overview">
 
     <fragment
-        android:id="@+id/navigation_home"
+        android:id="@+id/navigation_Overview"
         android:name="com.example.poe_pt2_opsc.ui.home.HomeFragment"
-        android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        android:label="@string/title_Overview"
+        tools:layout="@layout/fragment_overview" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
+        android:id="@+id/navigation_Analytics"
         android:name="com.example.poe_pt2_opsc.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:label="@string/title_Analytics"
+        tools:layout="@layout/fragment_add" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
+        android:id="@+id/navigation_add"
         android:name="com.example.poe_pt2_opsc.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:label="@string/title_Add"
+        tools:layout="@layout/fragment_analytics" />
+
+    <fragment
+        android:id="@+id/navigation_Report"
+        android:name="com.example.poe_pt2_opsc.ui.notifications.NotificationsFragment"
+        android:label="@string/title_Report"
+        tools:layout="@layout/fragment_analytics" />
+
+    <fragment
+        android:id="@+id/navigation_Profile"
+        android:name="com.example.poe_pt2_opsc.ui.notifications.NotificationsFragment"
+        android:label="@string/title_Profile"
+        tools:layout="@layout/fragment_analytics" />
 </navigation>
